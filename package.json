@@ -1,0 +1,25 @@
+{
+	"name": "stack",
+	"version": "1.0.0",
+	"description": "mern stack",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon Backend/server.js",
+		"server": "nodemon Backend/server.js"
+	},
+	"author": "Giwa Ezekiel",
+	"license": "MIT",
+	"dependencies": {
+		"bcrypt": "^6.0.0",
+		"bcryptjs": "^3.0.2",
+		"colors": "^1.4.0",
+		"dotenv": "^17.0.0",
+		"express": "^5.1.0",
+		"express-async-handler": "^1.2.0",
+		"jsonwebtoken": "^9.0.2",
+		"mongoose": "^8.16.1"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.10"
+	}
+}
